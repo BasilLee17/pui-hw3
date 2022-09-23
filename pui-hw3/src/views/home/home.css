@@ -23,6 +23,7 @@
 nav {
     display: flex;
     justify-content: end;
+    margin-right: 40px;
 }
 
 /* tab nav */
@@ -34,24 +35,8 @@ nav button {
     font-family: Verdana;
     border: none;
     background-color: white;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: block;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-#cart-dropdown {
-    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #products {
@@ -110,6 +95,7 @@ p {
     font-size: 18px;
     margin-left: 10px;
     font-family: Verdana;
+    margin-top: 10px;
 }
 
 /* glazing dropdown */
@@ -135,6 +121,8 @@ p {
     padding: 7px;
     border: solid 2px black;
     transition: all 0.3s;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .sizes input[type="radio"] {
@@ -149,7 +137,7 @@ p {
 h3 {
     margin-left: 10px;
     font-size: 24px;
-    margin-right: 55px;
+    margin-right: 40px;
 }
 
 /* add to cart */
@@ -161,6 +149,8 @@ button {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 18px;
+    background-color: white;
+    margin-top: 15px;
 }
 
 button:hover {
